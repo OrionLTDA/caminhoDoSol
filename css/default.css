@@ -32,6 +32,8 @@ a{
 
 button{
     border: none;
+    background-color: none;
+    background: none;
 }
 
 /* CUSTOM CLASSES */

@@ -17,30 +17,19 @@
 
 @media screen and (max-width: 1300px) {
 
-    #navbar {
-        display: none;
-        width: 100%;
-
-        flex-flow: column;
-
-        position: absolute;
-        top: 60px;
-        left: 0;
-
-        background-color: black;
+    /* HEADER */
+    #header {
+        padding: 10px 15px;
     }
 
     #navbar>ul {
-        gap: 10px;
+        padding: 15px 0;
     }
 
     #navbar>ul>li {
-        width: 100%;
+        font-size: 14px;
     }
 
-    #menuBtn {
-        display: flex;
-    }
 
     /* DEPOIMENTOS */
     #declaracao {
@@ -90,7 +79,24 @@
     }
 }
 
+
+
 @media screen and (max-width: 1000px) {
+
+    /* HEADER */
+    #headerLogo {
+        width: 150px;
+        height: 50px;
+    }
+
+    #navbar>ul>li {
+        padding: 8px;
+    }
+
+    #headerWpp {
+        padding: 8px 10px;
+        gap: 6px;
+    }
 
     /* MAIN */
     :root {
@@ -133,13 +139,42 @@
     }
 }
 
+@media screen and (max-width: 900px) {
+    /* HEADER */
+
+    #navbar {
+        display: none;
+        width: 100%;
+
+        flex-flow: column;
+
+        position: absolute;
+        top: 60px;
+        left: 0;
+
+        background-color: black;
+    }
+
+    #navbar>ul {
+        gap: 10px;
+    }
+
+    #navbar>ul>li {
+        width: 100%;
+    }
+
+    #menuBtn {
+        display: flex;
+    }
+}
 
 @media screen and (max-width: 700px) {
+
     /* MAIN */
     :root {
         --mainSliderHeight: 500px;
     }
-    
+
     #mainSlider>#mainSliderTxt>h3 {
         font-size: 36px;
     }
@@ -199,14 +234,17 @@
     }
 }
 
+
+
 @media screen and (max-width: 550px) {
+
     /* HEADER */
-    #header {    
+    #header {
         padding: 15px 15px;
     }
 
     /* MAIN */
-    #mainSliderTxt{
+    #mainSliderTxt {
         text-align: center;
     }
 
@@ -236,6 +274,7 @@
     #turmas {
         padding: 30px 12px;
     }
+
     .turmaCards {
         padding: 12px 12px;
     }
@@ -273,6 +312,7 @@
 }
 
 
+
 @media screen and (max-width: 400px) {
 
     :root {
@@ -292,7 +332,7 @@
         font-size: 20px;
     }
 
-    .depoimentoPais > img{
+    .depoimentoPais>img {
         width: 30px;
         height: 30px;
     }
