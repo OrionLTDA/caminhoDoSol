@@ -1,0 +1,65 @@
+#noCaminhoDoSolTem {
+    width: 100%;
+
+    padding: 30px 100px;
+    gap: 40px;
+
+    flex-flow: column;
+
+    background-color: var(--bgColor);
+}
+
+/* caminhoTxts */
+#caminhoTxts {
+    width: 600px;
+    gap: 12px;
+
+    text-align: center;
+}
+
+#caminhoTxts>h3 {
+    font-family: 'Lobster Two';
+    font-size: 40px;
+    line-height: 48px;
+
+    color: #08222F;
+}
+
+#caminhoTxts>p {
+    font-weight: 500;
+    font-size: 20px;
+    color: #717171;
+}
+
+/* caminhoClasses */
+
+#caminhoClasses {
+    width: 100%;
+    gap: 100px;
+}
+
+#caminhoClasses>div {
+    flex-flow: row;
+    gap: 5px;
+}
+
+#caminhoClasses>div>p {
+    font-size: 24px;
+}
+
+#caminhoClasses>div>img {
+    width: 40px;
+    height: 40px;
+}
+
+#peda {
+    color: #2F6E91;
+}
+
+#nutri {
+    color: #198754;
+}
+
+#guitar {
+    color: #FF7F0A;
+}

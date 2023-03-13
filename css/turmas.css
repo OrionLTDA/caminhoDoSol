@@ -1,0 +1,89 @@
+#turmas {
+    padding: 30px 100px;
+
+    flex-flow: column;
+    gap: 60px;
+    background-color: #19668C;
+}
+
+
+/* turmasTxt */
+#turmasTxt {
+    width: 600px;
+
+    flex-flow: column;
+    gap: 10px;
+
+    text-align: center;
+}
+
+#turmasTxt>h3 {
+    font-family: 'Lobster Two';
+    font-size: 40px;
+    line-height: 48px;
+
+    color: #F6D200;
+}
+
+#turmasTxt>p {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+
+    color: #EAF0F4;
+}
+
+/* turmasCardsContent */
+#turmasCardsContent {
+    align-items: flex-start;
+    gap: 80px;
+}
+
+.turmaCards {
+    width: fit-content;
+    padding: 20px 30px;
+
+    flex-flow: column;
+    align-items: flex-start;
+    gap: 10px;
+
+    border-radius: 20px;
+
+    background-color: #123041;
+}
+
+.turmaCards>img {
+    width: 400px;
+    height: 400%;
+}
+
+.turmaCards>h3 {
+    font-family: 'Lobster Two';
+    font-size: 28px;
+    line-height: 34px;
+
+    color: #3E9ACD;
+}
+
+.turmaCards>p {
+    width: 400px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+
+    color: #9ECFEB;
+}
+
+.turmaCards>a {
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+
+    font-size: 24px;
+    line-height: 24px;
+    
+    color: #E8F8F1;
+    background-color: #15B26D;
+    
+    border-radius: 20px;
+}

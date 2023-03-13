@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="referrer" content="strict-origin-when-cross-origin">
+
+  <title>Caminho do sol</title>
+  <link rel="icon" type="image/png" href="./images/orionIcon.png" />
+  <link rel="stylesheet" type="text/css" href="./css/default.css">
+  <link rel="stylesheet" type="text/css" href="./css/header.css">
+  <link rel="stylesheet" type="text/css" href="./css/main.css">
+  <link rel="stylesheet" type="text/css" href="./css/sobreNos.css">
+  <link rel="stylesheet" type="text/css" href="./css/turmas.css">
+  <link rel="stylesheet" type="text/css" href="./css/noCaminhoDoSolTem.css">
+  <link rel="stylesheet" type="text/css" href="./css/atividades.css">
+  <link rel="stylesheet" type="text/css" href="./css/depoimentos.css">
+  <link rel="stylesheet" type="text/css" href="./css/footer.css">
+  <link rel="stylesheet" type="text/css" href="./css/mediaQuery.css">
+
+
+  <link rel="stylesheet" type="text/css" href="./css/mediaQuery.css">
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
+
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Baloo+Thambi+2:wght@400;500;600;700&family=Lobster+Two:wght@400;700&display=swap');
+  </style>
+</head>
+
+<body>
+  <header id="header" class="flex">
+
+    <a id="headerLogo" class="flex bgImg" href="#"></a>
+
+    <div id="headerMenu" class="flex">
+
+      <nav id="navbar" class="flex">
+        <ul class="flex">
+          <li class="flex fw700">
+            <a href="#sobreNos">Sobre Nós</a>
+          </li>
+
+          <li class="flex fw700">
+            <a href="#turmas">Turmas</a>
+          </li>
+
+          <li class="flex fw700">
+            <a href="#noCaminhoDoSolTem">No Caminho do Sol Tem</a>
+          </li>
+
+          <li class="flex fw700">
+            <a href="#depoimentos">Depoimento dos Pais</a>
+          </li>
+
+          <a id='headerWpp' class="flex" href="https://api.whatsapp.com/send?phone=55558598297378" target="_blank">
+            <p class="fw700">Agende uma visita</p>
+            <img src="./img/headerWpp.png" alt="whatsapp">
+          </a>
+
+        </ul>
+
+      </nav>
+
+      <button id="menuBtn" class="flex">
+        | | |
+      </button>
+
+    </div>
+  </header>
+
+  <section id="main" class="flex bgImg">
+
+    <div id="mainSlider" class="flex">
+      <div id="mainSliderTxt" class="flex">
+        <h3 class="fw700">Creche e Escola Caminho do Sol</h3>
+        <p class="fw500">Há 30 anos com um jeito único de ser</p>
+      </div>
+
+      <div id="mainSlides">
+        
+
+        <div id='ms1' class="mainSlide flex bgImg">
+          <img src="./img/carousel.png" alt="img1">
+        </div>
+  
+        <div id='ms2' class="mainSlide flex bgImg">
+          <img src="./img/carousel.png" alt="img1">
+        </div>
+  
+        <div id='ms3' class="mainSlide flex bgImg">
+  
+        </div>
+  
+      </div>
+    </div>
+
+  </section>
+
+  <section id="sobreNos" class="flex bgImg">
+
+    <div id="bemVindos" class="flex">
+      <h3 class="fw700">Bem-vindos ao Caminho do Sol</h3>
+      <p>
+        Quem anda pelos espaços da escola, nas salinhas de aula, observa as artes e as produções infantis, perceberá
+        que aqui estamos aprendendo e gostando do que se faz, não só as crianças, mas a equipe que sempre está envolvida
+        no mundo infantil.
+      </p>
+
+      <section id="diretor" class="flex">
+
+        <div id="dirDiv" class="flex">
+          <img src="./img/diretor.png" alt="">
+
+          <div id="dirAprs" class="flex">
+            <h3 class="fw700">Ricardo Lins</h3>
+            <p>Diretor</p>
+          </div>
+        </div>
+
+      </section>
+
+      <div id="fornecemos" class="flex">
+        <p>
+          Nós fornecemos um ambiente seguro e estimulante para seus pequenos. Venha se juntar à nossa família e
+          deixe-nos
+          cuidar de seus filhos enquanto você cuida de tudo o que precisa fazer!
+        </p>
+      </div>
+
+    </div>
+
+    <div id="rodaDeImagens" class="flex">
+      <img id='imgCenter' src="./img/imgCenter.png" alt="">
+      <img id='imgBottomLeft' class="rImg" src="./img/imgBottomLeft.png" alt="">
+      <img id='imgBottomRight' class="rImg" src="./img/imgBottomRight.png" alt="">
+    </div>
+
+
+  </section>
+
+  <section id="turmas" class="flex">
+    <div id="turmasTxt" class="flex">
+      <h3 class="fw700">Turmas</h3>
+      <p>
+        Proporcionamos o desenvolvimento integral das crianças de 0 a 6 anos em seus aspectos físicos, psicológicos,
+        intelectuais e sociais.
+      </p>
+    </div>
+
+    <div id="turmasCardsContent" class="flex">
+      <div class="turmaCards flex">
+        <img src="./img/bercario.png" alt="bercario">
+        <h3 class="fw700">Berçário</h3>
+        <p>
+          O Berçário é um espaço planejado especialmente para os bebês. Nesse ambiente, pensamos nos cuidados e
+          incentivos necessários para atender crianças com idades entre 3 meses a 1 ano e 1 mês de vida, com atividades
+          de estimulação motora, como aulas de psicomotricidade e musicalização.
+        </p>
+
+        <a href="" target="_blank" class="flex fw700">
+          Tenho Interesse!
+        </a>
+      </div>
+
+      <div class="turmaCards flex">
+        <img src="./img/infantil.png" alt="bercario">
+        <h3 class="fw700">Infantil</h3>
+        <p>
+          É na Educação Infantil que construímos os principais alicerces para o desenvolvimento integral da criança nos
+          aspectos físico, cognitivo, emocional e social. Aqui no Alecrim, educação e cuidado caminham juntos, num
+          processo rico em experimentações e vivências que promovem descobertas e o prazer pelo aprendizado.
+        </p>
+
+        <a href="" target="_blank" class="flex fw700">
+          Tenho Interesse!
+        </a>
+      </div>
+
+    </div>
+  </section>
+
+  <section id="noCaminhoDoSolTem" class="flex">
+
+    <div id="caminhoTxts" class="flex">
+      <h3 class="fw700">No Caminho Do Sol Tem</h3>
+      <p>
+        Inúmeros estudos apontam que a primeira infância é a fase de maior desenvolvimento da vida do ser humano. Por
+        isso, desenvolvemos há 30 anos uma metodologia inovadora, focada em oferecer sempre o melhor para potencializar
+        essa fase tão importante.
+      </p>
+    </div>
+
+    <div id="caminhoClasses" class="flex">
+
+      <div id="peda" class="flex">
+        <p class="fw700">Pedagogia e Psicologia</p>
+        <img src="./img/pencil.png" alt="Lápis">
+      </div>
+
+      <div id="nutri" class="flex">
+        <p class="fw700">Nutricionista</p>
+        <img src="./img/carrot.png" alt="Cenoura">
+      </div>
+
+      <div id="guitar" class="flex">
+        <p class="fw700">Música e Artes</p>
+        <img src="./img/guitar.png" alt="Violão">
+      </div>
+
+    </div>
+  </section>
+
+  <section id="atividades" class="flex">
+    <h3 class="fw700">Atividades</h3>
+
+    <div id="atividadeCardsContent" class="flex">
+      <div id="bale" class="flex atividadesCards bgImg">
+        <h3 class="fw700">Balé</h3>
+        <p>
+          O balé nos aproxima do belo, dá oportunidade das crianças aprender em o sentido do esforço e o reconhecimento
+          da dedicação. Uma atividade única para desenvolver os movimentos delicados
+        </p>
+      </div>
+
+      <div id="capoeira" class="flex atividadesCards bgImg">
+        <h3 class="fw700"></h3>Capoeira</h3>
+        <p>
+          A consciência corporal, o respeito ao outro e a estimulação física-motora estão presente nesta atividade de
+          uma forma divertida.
+        </p>
+      </div>
+
+      <div id="natacao" class="flex atividadesCards bgImg">
+        <h3 class="fw700">Natação</h3>
+        <p>
+          O contato com a água já promove um bem-estar e os benefícios são inúmeros. Além dos bons efeitos físicos há
+          uma tendência à elevação da autoestima, alivio do stress, e mais disposição para enfrentar as atividades do
+          dia a dia.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section id="depoimentos" class="flex">
+    <article id="declaracao" class="flex">
+
+      <div id="declaracaoTxt" class="flex">
+        <h3 class="fw700">Declaração dos Pais</h3>
+        <p>
+          Olha o que os pais estão dizendo sobre a gente! Cuidamos bem do que importa.
+        </p>
+        <div id="setaDeclaracao" class="flex">
+          <ion-icon name="arrow-down-outline"></ion-icon>
+        </div>
+      </div>
+
+      <article id="articleSlider" class="flex">
+
+        <div id="articleSlides">
+
+          <article id='firstDeclaration' class="articleSlide flex">
+            <div class="articleSlideDiv flex">
+
+              <p>
+                Para mim a palavra que define a Caminho do Sol é CUIDADO. Nessa escola eu encontro, em primeiro lugar, um
+                cuidado personalizado com as crianças desde o berçário até o N6. A presença constante do Tio Ricardo e da
+                Tia Márcia dentro da escola me traz tranquilidade e isso também faz com que eles conheçam cada criança,
+                cada dificuldade e cada necessidade.
+              </p>
+  
+              <div class="depoimentoPais flex">
+  
+                <div class="parentCard flex">
+                  <img src="./img/juliana.png" alt="juliana">
+  
+                  <div class="flex">
+                    <h3 class="fw700">Juliana Pinto</h3>
+                    
+                  </div>
+                </div>
+  
+                <img src="./img/aspas.png" alt="aspas">
+  
+              </div>
+            </div>
+
+          </article>
+
+          <article class="articleSlide flex">
+            <div class="articleSlideDiv flex">
+
+              <p>
+                Não sei nem onde encontram tantas tias e tios excepcionais! Simplesmente apaixonante! Já indiquei pra várias
+                amigas e a opinião é unânime! Amo demais essa segunda família dos meus pequenos!
+              </p>
+  
+              <div class="depoimentoPais flex">
+  
+                <div class="parentCard flex">
+                  <img src="./img/flavia.png" alt="juliana">
+  
+                  <div class="flex">
+                    <h3 class="fw700">Flavia Furtado</h3>
+                    
+                  </div>
+                </div>
+  
+                <img src="./img/aspas.png" alt="aspas">
+  
+              </div>
+            </div>
+
+          </article>
+
+        </div>
+
+        <div id="articleSliderCount" class="fw700">
+          <p>
+            <span id="ascIndex"></span>
+            <span >/</span>
+            <span id="ascMax"></span>
+          </p>
+        </div>
+
+        <div id="declarationButtons" class="flex">
+          <button id="prevDeclaration" class="declarationBtn flex">
+            <ion-icon name="arrow-back-outline"></ion-icon>
+          </button>
+    
+          <button id="nextDeclaration" class="declarationBtn flex">
+            <ion-icon name="arrow-forward-outline"></ion-icon>
+          </button>
+        </div>
+
+      </article>
+
+
+    </article>
+
+    <div id="marqueUmaVisita" class="flex">
+      <img src="./img/appointment.png" alt="appointment">
+
+      <div id="muvTxt" class="flex">
+        <h3 class="fw700">Marque uma Visita</h3>
+
+        <a href="https://api.whatsapp.com/send?phone=55558598297378" target="_blank">
+          <p class="fw700">Marcar</p>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <footer id="contato" class="flex">
+    <h3 class="fw700">Entre em Contato</h3>
+
+    <div id="contatos" class="flex">
+
+      <a class="flex" href="https://api.whatsapp.com/send?phone=55558598297378" target="_blank">
+        <div class="contatoIcon flex">
+          <div id="whatsapp" class="bgImg"></div>
+        </div>
+
+        <p>(85) 98297-7378</p>
+      </a>
+
+      <a class="flex">
+        <div class="contatoIcon flex">
+          <div id="telefone" class="bgImg"></div>
+        </div>
+
+        <p>(85) 3224-9365</p>
+      </a>
+
+      <a class="flex" href="https://www.instagram.com/escolacaminhodosol/" target="_blank">
+        <div class="contatoIcon flex">
+          <div id="instagram" class="bgImg"></div>
+        </div>
+
+        <p>@escolacaminhodosol</p>
+      </a>
+
+      <a class="flex">
+        <div class="contatoIcon flex">
+          <div id="email" class="bgImg"></div>
+        </div>
+
+        <p>contato@crechecaminhodosol.com.br</p>
+      </a>
+
+      <a class="flex" href="http://facebook.com/escolacaminhodosol" target="_blank">
+        <div class="contatoIcon flex">
+          <div id="facebook" class="bgImg"></div>
+        </div>
+
+        <p>facebook.com/escolacaminhodosol</p>
+      </a>
+
+      <a class="flex"
+        href="https://www.google.com.br/maps/place/Creche+Escola+Caminho+do+Sol/@-3.743127,-38.492074,17z/data=!3m1!4b1!4m6!3m5!1s0x7c74884e9d32219:0xfe1e1e7479777a66!8m2!3d-3.743127!4d-38.492074!16s%2Fg%2F1vzn5scm"
+        target="_blank">
+        <div class="contatoIcon flex">
+          <div id="local" class="bgImg"></div>
+        </div>
+
+        <p>Monsenhor Catão 1300, Fortaleza CE</p>
+      </a>
+
+
+    </div>
+
+    <div id="logoCopyright" class="flex">
+
+      <img id="footerLogo" src="./img/logo.png" alt="Logo">
+
+      <div class="flex">
+        <h3>© Copyright 2023 – Todos os direitos reservados.</h3>
+
+        <a href="https://www.orionsolucoes.com.br" target="_blank">
+          Desenvolvido por .Orion Soluções Tecnológicas
+        </a>
+      </div>
+
+    </div>
+  </footer>
+
+  <a id="upperBtn" class="flex" href="#header">
+    <ion-icon name="arrow-up-outline"></ion-icon>
+  </a>
+
+  <script src="./js/declarationSlidersController.js"></script>
+  <!-- <script src="./js/mainSlidersController.js"></script> -->
+
+  <!-- ION-ICONS -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>
