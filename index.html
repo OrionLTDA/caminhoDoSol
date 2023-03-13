@@ -40,19 +40,19 @@
 
       <nav id="navbar" class="flex">
         <ul class="flex">
-          <li class="flex fw700">
+          <li class="flex fw700 fs20">
             <a href="#sobreNos">Sobre Nós</a>
           </li>
 
-          <li class="flex fw700">
+          <li class="flex fw700 fs20">
             <a href="#turmas">Turmas</a>
           </li>
 
-          <li class="flex fw700">
+          <li class="flex fw700 fs20">
             <a href="#noCaminhoDoSolTem">No Caminho do Sol Tem</a>
           </li>
 
-          <li class="flex fw700">
+          <li class="flex fw700 fs20">
             <a href="#depoimentos">Depoimento dos Pais</a>
           </li>
 
@@ -103,12 +103,14 @@
   <section id="sobreNos" class="flex bgImg">
 
     <div id="bemVindos" class="flex">
-      <h3 class="fw700">Bem-vindos ao Caminho do Sol</h3>
-      <p>
-        Quem anda pelos espaços da escola, nas salinhas de aula, observa as artes e as produções infantis, perceberá
-        que aqui estamos aprendendo e gostando do que se faz, não só as crianças, mas a equipe que sempre está envolvida
-        no mundo infantil.
-      </p>
+      <div id="bemVindosTxt">
+        <h3 class="fw700 fs40">Bem-vindos ao Caminho do Sol</h3>
+        <p class="fw400 fs20">
+          Quem anda pelos espaços da escola, nas salinhas de aula, observa as artes e as produções infantis, perceberá
+          que aqui estamos aprendendo e gostando do que se faz, não só as crianças, mas a equipe que sempre está envolvida
+          no mundo infantil.
+        </p>
+      </div>
 
       <section id="diretor" class="flex">
 
@@ -117,13 +119,21 @@
 
           <div id="dirAprs" class="flex">
             <h3 class="fw700">Ricardo Lins</h3>
-            <p>Diretor</p>
+            <p class="fw400">Diretor</p>
           </div>
         </div>
 
       </section>
 
-      <div id="fornecemos" class="flex">
+
+      <div id="rodaDeImagens" class="flex">
+        <img id='imgCenter' src="./img/imgCenter.png" alt="">
+        <img id='imgBottomLeft' class="rImg" src="./img/imgBottomLeft.png" alt="">
+        <img id='imgBottomRight' class="rImg" src="./img/imgBottomRight.png" alt="">
+      </div>
+
+
+      <div id="fornecemos" class="flex fw500">
         <p>
           Nós fornecemos um ambiente seguro e estimulante para seus pequenos. Venha se juntar à nossa família e
           deixe-nos
@@ -133,19 +143,14 @@
 
     </div>
 
-    <div id="rodaDeImagens" class="flex">
-      <img id='imgCenter' src="./img/imgCenter.png" alt="">
-      <img id='imgBottomLeft' class="rImg" src="./img/imgBottomLeft.png" alt="">
-      <img id='imgBottomRight' class="rImg" src="./img/imgBottomRight.png" alt="">
-    </div>
 
 
   </section>
 
   <section id="turmas" class="flex">
     <div id="turmasTxt" class="flex">
-      <h3 class="fw700">Turmas</h3>
-      <p>
+      <h3 class="fw700 fs40">Turmas</h3>
+      <p class="fw500 fs20">
         Proporcionamos o desenvolvimento integral das crianças de 0 a 6 anos em seus aspectos físicos, psicológicos,
         intelectuais e sociais.
       </p>
@@ -155,7 +160,7 @@
       <div class="turmaCards flex">
         <img src="./img/bercario.png" alt="bercario">
         <h3 class="fw700">Berçário</h3>
-        <p>
+        <p class="fw400">
           O Berçário é um espaço planejado especialmente para os bebês. Nesse ambiente, pensamos nos cuidados e
           incentivos necessários para atender crianças com idades entre 3 meses a 1 ano e 1 mês de vida, com atividades
           de estimulação motora, como aulas de psicomotricidade e musicalização.
@@ -169,7 +174,7 @@
       <div class="turmaCards flex">
         <img src="./img/infantil.png" alt="bercario">
         <h3 class="fw700">Infantil</h3>
-        <p>
+        <p class="fw400">
           É na Educação Infantil que construímos os principais alicerces para o desenvolvimento integral da criança nos
           aspectos físico, cognitivo, emocional e social. Aqui no Alecrim, educação e cuidado caminham juntos, num
           processo rico em experimentações e vivências que promovem descobertas e o prazer pelo aprendizado.
@@ -186,8 +191,8 @@
   <section id="noCaminhoDoSolTem" class="flex">
 
     <div id="caminhoTxts" class="flex">
-      <h3 class="fw700">No Caminho Do Sol Tem</h3>
-      <p>
+      <h3 class="fw700 fs40">No Caminho Do Sol Tem</h3>
+      <p class="fw500 fs20">
         Inúmeros estudos apontam que a primeira infância é a fase de maior desenvolvimento da vida do ser humano. Por
         isso, desenvolvemos há 30 anos uma metodologia inovadora, focada em oferecer sempre o melhor para potencializar
         essa fase tão importante.
@@ -215,28 +220,28 @@
   </section>
 
   <section id="atividades" class="flex">
-    <h3 class="fw700">Atividades</h3>
+    <h3 class="fw700 fs40">Atividades</h3>
 
     <div id="atividadeCardsContent" class="flex">
       <div id="bale" class="flex atividadesCards bgImg">
-        <h3 class="fw700">Balé</h3>
-        <p>
+        <h3 class="fw700 fs40">Balé</h3>
+        <p class="fw500">
           O balé nos aproxima do belo, dá oportunidade das crianças aprender em o sentido do esforço e o reconhecimento
           da dedicação. Uma atividade única para desenvolver os movimentos delicados
         </p>
       </div>
 
       <div id="capoeira" class="flex atividadesCards bgImg">
-        <h3 class="fw700"></h3>Capoeira</h3>
-        <p>
+        <h3 class="fw700 fs40">Capoeira</h3>
+        <p class="fw500">
           A consciência corporal, o respeito ao outro e a estimulação física-motora estão presente nesta atividade de
           uma forma divertida.
         </p>
       </div>
 
       <div id="natacao" class="flex atividadesCards bgImg">
-        <h3 class="fw700">Natação</h3>
-        <p>
+        <h3 class="fw700 fs40">Natação</h3>
+        <p class="fw500">
           O contato com a água já promove um bem-estar e os benefícios são inúmeros. Além dos bons efeitos físicos há
           uma tendência à elevação da autoestima, alivio do stress, e mais disposição para enfrentar as atividades do
           dia a dia.
@@ -249,8 +254,8 @@
     <article id="declaracao" class="flex">
 
       <div id="declaracaoTxt" class="flex">
-        <h3 class="fw700">Declaração dos Pais</h3>
-        <p>
+        <h3 class="fw700 fs40">Declaração dos Pais</h3>
+        <p class="fw500 fs20">
           Olha o que os pais estão dizendo sobre a gente! Cuidamos bem do que importa.
         </p>
         <div id="setaDeclaracao" class="flex">
@@ -265,7 +270,7 @@
           <article id='firstDeclaration' class="articleSlide flex">
             <div class="articleSlideDiv flex">
 
-              <p>
+              <p class="fs20">
                 Para mim a palavra que define a Caminho do Sol é CUIDADO. Nessa escola eu encontro, em primeiro lugar, um
                 cuidado personalizado com as crianças desde o berçário até o N6. A presença constante do Tio Ricardo e da
                 Tia Márcia dentro da escola me traz tranquilidade e isso também faz com que eles conheçam cada criança,
@@ -293,7 +298,7 @@
           <article class="articleSlide flex">
             <div class="articleSlideDiv flex">
 
-              <p>
+              <p class="fs20">
                 Não sei nem onde encontram tantas tias e tios excepcionais! Simplesmente apaixonante! Já indiquei pra várias
                 amigas e a opinião é unânime! Amo demais essa segunda família dos meus pequenos!
               </p>
@@ -327,11 +332,11 @@
         </div>
 
         <div id="declarationButtons" class="flex">
-          <button id="prevDeclaration" class="declarationBtn flex">
+          <button id="prevDeclaration" class="declarationBtn flex fs40">
             <ion-icon name="arrow-back-outline"></ion-icon>
           </button>
     
-          <button id="nextDeclaration" class="declarationBtn flex">
+          <button id="nextDeclaration" class="declarationBtn flex fs40">
             <ion-icon name="arrow-forward-outline"></ion-icon>
           </button>
         </div>
@@ -342,10 +347,10 @@
     </article>
 
     <div id="marqueUmaVisita" class="flex">
-      <img src="./img/appointment.png" alt="appointment">
+      <div id='muvImg' class="bgImg"></div>
 
       <div id="muvTxt" class="flex">
-        <h3 class="fw700">Marque uma Visita</h3>
+        <h3 class="fw700 fs40">Marque uma Visita</h3>
 
         <a href="https://api.whatsapp.com/send?phone=55558598297378" target="_blank">
           <p class="fw700">Marcar</p>
@@ -364,7 +369,7 @@
           <div id="whatsapp" class="bgImg"></div>
         </div>
 
-        <p>(85) 98297-7378</p>
+        <p class="fw500">(85) 98297-7378</p>
       </a>
 
       <a class="flex">
@@ -372,7 +377,7 @@
           <div id="telefone" class="bgImg"></div>
         </div>
 
-        <p>(85) 3224-9365</p>
+        <p class="fw500">(85) 3224-9365</p>
       </a>
 
       <a class="flex" href="https://www.instagram.com/escolacaminhodosol/" target="_blank">
@@ -380,7 +385,7 @@
           <div id="instagram" class="bgImg"></div>
         </div>
 
-        <p>@escolacaminhodosol</p>
+        <p class="fw500">@escolacaminhodosol</p>
       </a>
 
       <a class="flex">
@@ -388,7 +393,7 @@
           <div id="email" class="bgImg"></div>
         </div>
 
-        <p>contato@crechecaminhodosol.com.br</p>
+        <p class="fw500">contato@crechecaminhodosol.com.br</p>
       </a>
 
       <a class="flex" href="http://facebook.com/escolacaminhodosol" target="_blank">
@@ -396,7 +401,7 @@
           <div id="facebook" class="bgImg"></div>
         </div>
 
-        <p>facebook.com/escolacaminhodosol</p>
+        <p class="fw500">facebook.com/escolacaminhodosol</p>
       </a>
 
       <a class="flex"
@@ -406,7 +411,7 @@
           <div id="local" class="bgImg"></div>
         </div>
 
-        <p>Monsenhor Catão 1300, Fortaleza CE</p>
+        <p class="fw500">Monsenhor Catão 1300, Fortaleza CE</p>
       </a>
 
 
@@ -417,7 +422,7 @@
       <img id="footerLogo" src="./img/logo.png" alt="Logo">
 
       <div class="flex">
-        <h3>© Copyright 2023 – Todos os direitos reservados.</h3>
+        <h3 class="fw500">© Copyright 2023 – Todos os direitos reservados.</h3>
 
         <a href="https://www.orionsolucoes.com.br" target="_blank">
           Desenvolvido por .Orion Soluções Tecnológicas

@@ -1,29 +1,26 @@
 #sobreNos {
     padding: 30px 100px;
     flex-flow: row;
-    justify-content: center;
+    justify-content: flex-start;
     /* align-items: flex-start; */
     gap: 50px;
 }
 
 /* BEM VINDOS */
 #bemVindos {
-    width: 100%;
+    width: 45%;
     flex-flow: column;
     justify-content: flex-start;
     align-items: flex-start;
     gap: 10px;
 }
 
-#bemVindos>h3 {
-    font-size: 40px;
+#bemVindosTxt>h3 {
     color: #103741;
     font-family: 'Lobster Two', cursive;
 }
 
-#bemVindos>p {
-    font-weight: 400;
-    font-size: 20px;
+#bemVindosTxt>p {
     color: #11445D;
 }
 
@@ -52,7 +49,6 @@
 }
 
 #dirAprs>p {
-    font-weight: 400;
     font-size: 14px;
     line-height: 21px;
 
@@ -63,7 +59,6 @@
     width: 100%;
     margin-top: 140px;
 
-    font-weight: 500;
     font-size: 24px;
     line-height: 24px;
 
@@ -71,6 +66,10 @@
 }
 
 #rodaDeImagens{
+    position: absolute;
+    right: 0;
+    transform: translateY(150px);
+
     flex-flow: row;
     align-items: flex-end;
     gap: 10px;

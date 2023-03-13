@@ -1,6 +1,7 @@
 const prevDeclaration = $('#prevDeclaration')
 const nextDeclaration = $('#nextDeclaration')
 const firstDeclaration = $('#firstDeclaration')
+const articleSlider = $('#articleSlider')
 
 const ascIndex = $('#ascIndex')
 const ascMax = $('#ascMax')
@@ -11,28 +12,23 @@ const declarationsNumber = 2
 ascIndex.text(declarationIndex)
 ascMax.text(declarationsNumber)
 
+// BUTTONS
 prevDeclaration.on('click', () => {
-    declarationIndex -= 1
-
-    if (declarationIndex < 1) {
-        declarationIndex = 1
-        return
-    }
-
-    if (declarationIndex > 2) {
-        declarationIndex = 2
-        return
-    }
-    
-    $(firstDeclaration).css({
-        'margin-left':"calc( var(--declaracaoDim) * 0)"
-    })
-
-    articleSlideIndexChanger(declarationIndex)
+    swipeDeclaration(-1)
 })
 
 nextDeclaration.on('click', () => {
-    declarationIndex += 1
+    swipeDeclaration(1)
+})
+
+// TOUCH
+$(articleSlider).on("swipeleft", swipeDeclaration(-1) );
+
+$(articleSlider).on("swiperight", swipeDeclaration(1) );
+
+
+function swipeDeclaration(i) {
+    declarationIndex += i
 
     if (declarationIndex < 1) {
         declarationIndex = 1
@@ -44,13 +40,19 @@ nextDeclaration.on('click', () => {
         return
     }
 
-    $(firstDeclaration).css({
-        'margin-left':"calc( var(--declaracaoDim) * -1)"
-    })
+    if (i == 1) {
+        $(firstDeclaration).css({
+            'margin-left': "calc( var(--declaracaoDim) * -1)"
+        })
+    } else if (i == -1) {
+        $(firstDeclaration).css({
+            'margin-left': "calc( var(--declaracaoDim) * 0)"
+        })
+    }
 
     articleSlideIndexChanger(declarationIndex)
-})
+}
 
-function articleSlideIndexChanger( i ) {
+function articleSlideIndexChanger(i) {
     ascIndex.text(declarationIndex)
 }

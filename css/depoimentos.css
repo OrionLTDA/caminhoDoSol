@@ -1,12 +1,9 @@
-:root {
-    --declaracaoDim: 560px;
-}
-
 #depoimentos {
     width: 100%;
-    padding: 40px;
+    padding: 40px 30px;
     padding-left: 100px;
-
+    justify-content: space-between;
+    align-content: flex-start;
     gap: 90px;
     background-color: #FDF6CC;
 }
@@ -28,15 +25,12 @@
 
 #declaracaoTxt>h3 {
     font-family: 'Lobster Two';
-    font-size: 40px;
     line-height: 48px;
 
     color: #103741;
 }
 
 #declaracaoTxt>p {
-    font-weight: 500;
-    font-size: 20px;
     line-height: 24px;
 
     color: #717171;
@@ -50,6 +44,9 @@
 }
 
 /* SLIDER */
+:root {
+    --declaracaoDim: 400px;
+}
 
 #articleSlider {
     width: var(--declaracaoDim);
@@ -93,7 +90,6 @@
 .articleSlideDiv>p {
     width: 90%;
     font-weight: 400px;
-    font-size: 20px;
     color: #FDF6CC;
 }
 
@@ -133,29 +129,25 @@
     color: #103741;
 }
 
-.parentCard>div>p {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 24px;
-
-    color: #717171;
-}
-
-
-
 
 /* MARQUE UMA VISITA */
 #marqueUmaVisita {
     flex-flow: column;
+    justify-content: flex-start;
 
     border-radius: 10px;
     box-shadow: 0 5px 15px 0 black;
-
 }
 
-#marqueUmaVisita>img {
+#muvImg {
     width: 100%;
     height: 400px;
+
+    background-image: url("../img/appointment.png");
+    background-size: cover;
+
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
 }
 
 #muvTxt {
@@ -170,14 +162,13 @@
 }
 
 #muvTxt>h3 {
-    font-size: 40px;
     color: #103741;
 }
 
 #muvTxt>a {
     padding: 30px 180px;
 
-    border: 1px solid #0C834F;
+    border: 2px solid #0C834F;
     border-radius: 50px;
 
     background-color: #15B26D;
@@ -205,16 +196,5 @@
     border-radius: 50%;
     background-color: #15B26D;
 
-    font-size: 40px;
-
     cursor: pointer;
-}
-
-#prevDeclaration{
-    /* top: 3200px; */
-    /* left: 0; */
-}
-
-#nextDeclaration{
-    /* right: 0; */
 }

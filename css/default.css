@@ -56,6 +56,18 @@ button{
     font-weight: 500;
 }
 
+.fw400{
+    font-weight: 400;
+}
+
+.fs40{
+    font-size: 40px;
+}
+
+.fs20{
+    font-size: 20px;
+}
+
 
 /* ESPECIAL CLASSES */
 #upperBtn{

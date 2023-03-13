@@ -19,15 +19,12 @@
 
 #turmasTxt>h3 {
     font-family: 'Lobster Two';
-    font-size: 40px;
     line-height: 48px;
 
     color: #F6D200;
 }
 
 #turmasTxt>p {
-    font-weight: 500;
-    font-size: 20px;
     line-height: 24px;
 
     color: #EAF0F4;
@@ -67,7 +64,6 @@
 
 .turmaCards>p {
     width: 400px;
-    font-weight: 400;
     font-size: 16px;
     line-height: 24px;
 

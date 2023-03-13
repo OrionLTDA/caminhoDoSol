@@ -1,14 +1,23 @@
 @media screen and (max-width: 1500px) {
-    #navbar > ul{
+    #navbar>ul {
         gap: 0px;
+    }
+
+    /* DEPOIMENTOS */
+    #muvTxt>h3 {
+        font-size: 30px;
+    }
+
+    #muvTxt>a {
+        padding: 30px 120px;
     }
 }
 
 
 
 @media screen and (max-width: 1300px) {
-    
-    #navbar{
+
+    #navbar {
         display: none;
         width: 100%;
 
@@ -21,49 +30,287 @@
         background-color: black;
     }
 
-    #navbar > ul{
+    #navbar>ul {
         gap: 10px;
     }
 
-    #navbar > ul > li{
+    #navbar>ul>li {
         width: 100%;
     }
 
-    #menuBtn{
+    #menuBtn {
         display: flex;
     }
+
+    /* DEPOIMENTOS */
+    #declaracao {
+        gap: 40px;
+    }
+
+    #muvTxt {
+        width: 100%;
+        padding: 60px;
+    }
+
+
 
 
     /* SOBRE NOS */
     #sobreNos {
-        padding: 30px 40px;
+        padding: 30px 60px;
     }
 
-    :root{
+    :root {
         --rodaDeImagensWidth: 350px;
         --rodaDeImagensTranslate: 110px;
     }
-} 
+}
+
+
+
+@media screen and (max-width: 1100px) {
+    :root {
+        --declaracaoDim: 500px;
+    }
+
+    #depoimentos {
+        justify-content: center;
+        align-items: center;
+        padding: 40px 30px;
+    }
+
+    #muvTxt>a {
+        padding: 30px 180px;
+    }
+
+    /* caminhoClasses */
+    #caminhoClasses {
+        width: 100%;
+        gap: 40px;
+    }
+}
 
 @media screen and (max-width: 1000px) {
+
     /* MAIN */
-    :root{
+    :root {
         --mainSliderHeight: 100%;
     }
-    #mainSlider > #mainSliderTxt > h3{
-    
-        font-weight: 700;
+
+    #mainSlider>#mainSliderTxt>h3 {
         font-size: 50px;
         line-height: 80px;
         font-family: 'Lobster Two', cursive;
     }
-    
-    #mainSlider > #mainSliderTxt > p{
-        font-weight: 500;
+
+    #mainSlider>#mainSliderTxt>p {
         font-size: xx-large;
+    }
+
+    /* SOBRE NOS */
+    #sobreNos {
+        padding: 30px 30px;
+        flex-flow: row;
+        justify-content: center;
+        /* align-items: flex-start; */
+    }
+
+    #bemVindos {
+        width: 80%;
+        justify-content: center;
+        align-items: center;
+    }
+
+    :root {
+        --rodaDeImagensWidth: 300px;
+    }
+
+    #rodaDeImagens {
+        position: static;
+        transform: translateY(0);
+        margin-top: 150px;
+        margin-bottom: 50px;
+    }
+}
+
+
+@media screen and (max-width: 700px) {
+    /* MAIN */
+    :root {
+        --mainSliderHeight: 500px;
+    }
+    
+    #mainSlider>#mainSliderTxt>h3 {
+        font-size: 36px;
+    }
+
+    #mainSlider>#mainSliderTxt>p {
+        font-size: x-large;
+    }
+
+    /* BEM VINDOS */
+    #bemVindos {
+        width: 100%;
+    }
+
+    /* SLIDER */
+    :root {
+        --declaracaoDim: 400px;
+    }
+
+    #marqueUmaVisita {}
+
+    #muvImg {
+        height: 350px;
+    }
+
+    #muvTxt {
+        padding: 60px;
+    }
+
+    #muvTxt>a {
+        padding: 30px 140px;
+    }
+
+    .declarationBtn {
+        display: none;
+    }
+
+
+    /* TURMAS */
+    #turmasTxt {
+        width: 100%;
+    }
+
+    /* noCaminhoDoSolTem */
+    #noCaminhoDoSolTem {
+        padding: 30px 30px;
+    }
+
+    #caminhoTxts {
+        width: 100%;
     }
 
 
 
+    /* FOOTER */
+    #contato {
+        padding: 40px 10px;
+    }
+}
 
+@media screen and (max-width: 550px) {
+    /* HEADER */
+    #header {    
+        padding: 15px 15px;
+    }
+
+    /* MAIN */
+    #mainSliderTxt{
+        text-align: center;
+    }
+
+    #muvTxt>a {
+        padding: 18px 100px;
+    }
+
+    #muvTxt {
+        padding: 55px;
+    }
+
+
+    /* SOBRE */
+    :root {
+        --rodaDeImagensWidth: 250px;
+    }
+
+
+    /* ATIVIDADES */
+    .atividadesCards {
+        --atividadesCards: 350px;
+        padding: 30px;
+    }
+
+
+    /* TURMAS */
+    #turmas {
+        padding: 30px 12px;
+    }
+    .turmaCards {
+        padding: 12px 12px;
+    }
+
+    .turmaCards>img {
+        width: 100%;
+        height: 300px;
+    }
+
+    .turmaCards>p {
+        width: 100%;
+    }
+
+    /* FOOTER */
+    #contatos>a {
+        width: 100%;
+    }
+
+    #contatos>a>p {
+        font-size: 20px;
+    }
+
+    /* FOOTER */
+    #logoCopyright>div>h3 {
+        font-size: inherit;
+    }
+
+    .contatoIcon {
+        --contatosADim: 40px;
+    }
+
+    .contatoIcon>div {
+        --contatoIconDim: 20px;
+    }
+}
+
+
+@media screen and (max-width: 400px) {
+
+    :root {
+        --declaracaoDim: 320px;
+    }
+
+    .articleSlideDiv {
+        padding: 26px;
+    }
+
+    .parentCard>img {
+        width: 65px;
+        height: 65px;
+    }
+
+    .parentCard>div>h3 {
+        font-size: 20px;
+    }
+
+    .depoimentoPais > img{
+        width: 30px;
+        height: 30px;
+    }
+
+    #muvImg {
+        height: 270px;
+    }
+
+    #muvTxt {
+        padding: 20px;
+    }
+
+    /* FOOTER */
+    #contatos>a {
+        gap: 5px;
+    }
+
+    #contatos>a>p {
+        font-size: 18px;
+    }
 }

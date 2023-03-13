@@ -31,7 +31,6 @@
 }
 
 #contatos>a>p {
-    font-weight: 500;
     font-size: 24px;
     line-height: 38px;
     white-space: nowrap;
@@ -106,17 +105,8 @@
 }
 
 #logoCopyright>div>h3 {
-    font-weight: 500;
     font-size: 24px;
     line-height: 38px;
-
-    color: #7AB8D6;
-}
-
-#logoCopyright>div>p {
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 31px;
 
     color: #7AB8D6;
 }
