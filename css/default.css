@@ -78,23 +78,3 @@ button{
     font-family: 'Lobster Two';
 }
 
-
-/* ESPECIAL CLASSES */
-#upperBtn{
-    --posUpperBtn: 30px;
-    padding: 15px;
-
-    position: fixed;
-    bottom: var(--posUpperBtn);
-    right: var(--posUpperBtn);
-    z-index: 5;
-
-    border-radius: 50%;
-    color: #FDF6CC;
-    background: #15B26D;
-    font-size: 30px;
-}
-
-#upperBtn:hover{
-    background: var(--verde200);
-}
