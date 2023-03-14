@@ -40,34 +40,43 @@
 
       <nav id="navbar" class="flex">
         <ul class="flex">
-          <li class="flex fw700 fs20">
+          <li class="navbarLi flex fw700 fs20">
             <a href="#sobreNos">Sobre Nós</a>
           </li>
 
-          <li class="flex fw700 fs20">
+          <li class="navbarLi flex fw700 fs20">
             <a href="#turmas">Turmas</a>
           </li>
 
-          <li class="flex fw700 fs20">
+          <li class="navbarLi flex fw700 fs20">
             <a href="#noCaminhoDoSolTem">No Caminho do Sol Tem</a>
           </li>
 
-          <li class="flex fw700 fs20">
+          <li class="navbarLi flex fw700 fs20">
             <a href="#depoimentos">Depoimento dos Pais</a>
           </li>
 
+          <li class="navbarLi flex fw700 fs20">
+            <a id='headerWppNAV' class="headerWpp flex" href="https://api.whatsapp.com/send?phone=55558598297378" target="_blank">
+              <p class="fw700">Agende uma visita</p>
+              <img src="./img/headerWpp.png" alt="whatsapp">
+            </a>
+          </li>
+          
         </ul>
 
       </nav>
     </div>
 
-    <a id='headerWpp' class="flex" href="https://api.whatsapp.com/send?phone=55558598297378" target="_blank">
+    <a id='headerWppHEADER' class="headerWpp flex" href="https://api.whatsapp.com/send?phone=55558598297378" target="_blank">
       <p class="fw700">Agende uma visita</p>
       <img src="./img/headerWpp.png" alt="whatsapp">
     </a>
 
     <button id="menuBtn" class="flex">
-      <ion-icon name="menu"></ion-icon>
+      <ion-icon id="openMenu" name="menu"></ion-icon>
+
+      <ion-icon id="closeMenu" name="close-outline"></ion-icon>
     </button>
   </header>
 

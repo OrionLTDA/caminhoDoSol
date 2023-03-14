@@ -82,10 +82,7 @@ button{
     z-index: 5;
 
     border-radius: 50%;
+    color: #FDF6CC;
     background: #15B26D;
-}
-
-
-#upperBtn > ion-icon{
     font-size: 30px;
 }

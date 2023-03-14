@@ -93,7 +93,7 @@
         padding: 8px;
     }
 
-    #headerWpp {
+    .headerWpp {
         padding: 8px 10px;
         gap: 6px;
     }
@@ -148,8 +148,7 @@
         height: 100%;
 
         flex-flow: column;
-
-        position: absolute;
+        position: fixed;
         top: 0px;
         left: 0px;
         z-index: 6;
@@ -157,10 +156,22 @@
     }
 
     #navbar>ul {
-        gap: 10px;
+        /* height: 100%; */
+        padding-top: 100px;
+
+        flex-flow: column;
+        justify-content: flex-start;
+        gap: 15px;
     }
 
     #navbar>ul>li {
+        width: 100%;
+        justify-content: flex-start;
+        padding: 10px 35px;
+        font-size: x-large;
+    }
+
+    #navbar>ul>li>a {
         width: 100%;
     }
 
@@ -168,7 +179,7 @@
         display: flex;
     }
 
-    #headerWpp{
+    #headerWppHEADER{
         display: none;
     }
 }
