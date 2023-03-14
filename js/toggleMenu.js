@@ -4,59 +4,69 @@ const closeMenu = $("#closeMenu")
 const headerWppNAV = $('#headerWppNAV')
 const menuLi = $(".navbarLi")
 
-$(menuBtn).on('click', () => {
-    $('#navbar').toggle()
-    $(openMenu).toggle()
-    $(closeMenu).toggle()
-    $(headerWppNAV).toggle()
-})
 
 $("#navbar>ul").on("click", () => {
-    $('#navbar').toggle()
-    $(openMenu).toggle()
-    $(closeMenu).toggle()
-    $(headerWppNAV).toggle()
+    toggle()
 })
 
-$( window ).resize( () => {
+$(menuBtn).on('click', () => {
+    toggle()
+})
+
+function toggle() {
+    const screenWidth = screen.width;
+    const windowWidth = window.innerWidth;
+
+
+    if (screenWidth <= 900 || windowWidth <= 900) {
+        $('#navbar').toggle()
+        $(openMenu).toggle()
+        $(closeMenu).toggle()
+        $(headerWppNAV).toggle()
+    }
+}
+
+
+
+$(window).resize(() => {
     showMenu()
 })
 
 showMenu()
 
-function showMenu(){
+function showMenu() {
     const screenWidth = screen.width;
     const windowWidth = window.innerWidth;
 
     // SE FOR MENOR QUE 900
-    if ( screenWidth <= 900 || windowWidth <= 900){
+    if (screenWidth <= 900 || windowWidth <= 900) {
         $('#navbar').css({
-            "display":"none"
+            "display": "none"
         })
 
         $(openMenu).css({
-            "display":"flex"
+            "display": "flex"
         })
 
         $(closeMenu).css({
-            "display":"none"
+            "display": "none"
         })
 
         $(headerWppNAV).css({
-            "display":"none"
+            "display": "none"
         })
 
-    }else{
+    } else {
         $('#navbar').css({
-            "display":"flex"
+            "display": "flex"
         })
 
         $(closeMenu).css({
-            "display":"none"
+            "display": "none"
         })
 
         $(headerWppNAV).css({
-            "display":"none"
+            "display": "none"
         })
 
     }

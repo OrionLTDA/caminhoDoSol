@@ -24,11 +24,21 @@
 }
 
 #contatos>a {
-    width: 400px;
+    cursor: pointer;
+
+    width: 100%;
+
     flex-flow: row;
     justify-content: flex-start;
     gap: 20px;
 }
+
+#contatos>a:hover {
+    border-radius: 32px;
+    background-color: var(--verde200);
+}
+
+
 
 #contatos>a>p {
     font-size: 24px;
@@ -49,8 +59,6 @@
 }
 
 
-
-
 /* .contatoIcon ICONS */
 .contatoIcon>div {
     --contatoIconDim: 30px;
@@ -59,9 +67,12 @@
     background-size: contain;
 }
 
+
+
 .contatoIcon>#whatsapp {
     background-image: url('../img/wppContato.png');
 }
+
 
 .contatoIcon>#telefone {
     background-image: url('../img/telContato.png');

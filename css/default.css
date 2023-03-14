@@ -1,6 +1,10 @@
 :root{
     --bgColor: #FFFBE6;
     --txtColor: #2188BA;
+
+    --azul700: #11445D;
+    --azul200: #A6CFE3;
+    --verde200: #A1E0C5;
 }   
 
 *{
@@ -70,6 +74,10 @@ button{
     font-size: 20px;
 }
 
+.ffLT{
+    font-family: 'Lobster Two';
+}
+
 
 /* ESPECIAL CLASSES */
 #upperBtn{
@@ -85,4 +93,8 @@ button{
     color: #FDF6CC;
     background: #15B26D;
     font-size: 30px;
+}
+
+#upperBtn:hover{
+    background: var(--verde200);
 }

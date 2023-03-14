@@ -191,10 +191,6 @@
         --mainSliderHeight: 500px;
     }
 
-    #mainSlider>#mainSliderTxt>h3 {
-        font-size: 36px;
-    }
-
     #mainSlider>#mainSliderTxt>p {
         font-size: x-large;
     }
@@ -208,8 +204,6 @@
     :root {
         --declaracaoDim: 400px;
     }
-
-    #marqueUmaVisita {}
 
     #muvImg {
         height: 350px;
@@ -310,6 +304,12 @@
 
     .turmaCards>p {
         width: 100%;
+    }
+
+    /* GALERIA */
+    :root{
+        --galeriaDim: 300px;
+        --galeriaFotosDim: 80px;
     }
 
     /* FOOTER */

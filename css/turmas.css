@@ -83,3 +83,7 @@
     
     border-radius: 20px;
 }
+
+.turmaCards>a:hover {
+    background-color: var(--verde200);
+}
