@@ -143,16 +143,17 @@
     /* HEADER */
 
     #navbar {
-        display: none;
+        /* display: none; */
         width: 100%;
+        height: 100%;
 
         flex-flow: column;
 
         position: absolute;
-        top: 60px;
-        left: 0;
-
-        background-color: black;
+        top: 0px;
+        left: 0px;
+        z-index: 6;
+        background-color: #FDF6CC;
     }
 
     #navbar>ul {
@@ -165,6 +166,10 @@
 
     #menuBtn {
         display: flex;
+    }
+
+    #headerWpp{
+        display: none;
     }
 }
 
@@ -206,9 +211,17 @@
     #muvTxt>a {
         padding: 30px 140px;
     }
+    #articleSliderCount{
+        padding: 10px;
+    }
 
-    .declarationBtn {
+    #declarationButtons{
+        /* transform: translateY(300px); */
         display: none;
+    }
+
+    #declarationButtonsASC{
+        display: flex;
     }
 
 

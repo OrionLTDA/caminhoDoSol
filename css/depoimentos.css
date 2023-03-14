@@ -51,10 +51,11 @@
 #articleSlider {
     width: var(--declaracaoDim);
     overflow: hidden;
+
 }
 
 #articleSliderCount{
-    font-size: 16px;
+    font-size: 20px;
     line-height: 25px;
     
     color: #2188BA;
@@ -67,7 +68,6 @@
 }
 
 .articleSlide{
-    /* height: 100%; */
     transition: 0.5s;
 }
 
@@ -198,3 +198,24 @@
 
     cursor: pointer;
 }
+
+#declarationButtonsASC{
+    display: none;
+
+    position: absolute;
+    gap: 50px;
+    flex-flow: row;
+    z-index: 4;
+}
+
+#declarationButtonsASC > .declarationBtn{
+    padding: 5px;
+
+    border-radius: 50%;
+    background-color: #15B26D;
+
+    cursor: pointer;
+
+    font-size: large;
+}
+

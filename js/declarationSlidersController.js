@@ -1,5 +1,5 @@
-const prevDeclaration = $('#prevDeclaration')
-const nextDeclaration = $('#nextDeclaration')
+const prevDeclaration = $('.prevDeclaration')
+const nextDeclaration = $('.nextDeclaration')
 const firstDeclaration = $('#firstDeclaration')
 const articleSlider = $('#articleSlider')
 

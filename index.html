@@ -322,20 +322,30 @@
 
         </div>
 
-        <div id="articleSliderCount" class="fw700">
+        <div id="articleSliderCount" class="flex fw700">
           <p>
             <span id="ascIndex"></span>
             <span >/</span>
             <span id="ascMax"></span>
           </p>
+
+          <div id="declarationButtonsASC" class="flex">
+            <button class="prevDeclaration declarationBtn flex fs40">
+              <ion-icon name="arrow-back-outline"></ion-icon>
+            </button>
+      
+            <button class="nextDeclaration declarationBtn flex fs40">
+              <ion-icon name="arrow-forward-outline"></ion-icon>
+            </button>
+          </div>
         </div>
 
         <div id="declarationButtons" class="flex">
-          <button id="prevDeclaration" class="declarationBtn flex fs40">
+          <button class="prevDeclaration declarationBtn flex fs40">
             <ion-icon name="arrow-back-outline"></ion-icon>
           </button>
     
-          <button id="nextDeclaration" class="declarationBtn flex fs40">
+          <button class="nextDeclaration declarationBtn flex fs40">
             <ion-icon name="arrow-forward-outline"></ion-icon>
           </button>
         </div>
@@ -435,6 +445,7 @@
     <ion-icon name="arrow-up-outline"></ion-icon>
   </a>
 
+  <script src="./js/toggleMenu.js"></script>
   <script src="./js/declarationSlidersController.js"></script>
   <!-- <script src="./js/mainSlidersController.js"></script> -->
 

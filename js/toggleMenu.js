@@ -1,6 +1,6 @@
 const menuBtn = $('#menuBtn')
 
-menuBtn.on('click', () => {
+$(menuBtn).on('click', () => {
     $('#navbar').toggle()
 })
 
@@ -14,7 +14,7 @@ function showMenu(){
     const screenWidth = screen.width;
     const windowWidth = window.innerWidth;
 
-    if ( screenWidth <= 700 || windowWidth <= 700){
+    if ( screenWidth <= 900 || windowWidth <= 900){
         $('#navbar').css({
             "display":"none"
         })
