@@ -3,6 +3,9 @@
     --galeriaFotosDim: 120px;
 }
 
+#divGaleria{
+    width: 100%;
+}
 #galeria{
     width: var(--galeriaDim);
     height: var(--galeriaDim);
