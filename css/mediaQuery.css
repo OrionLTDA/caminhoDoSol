@@ -261,6 +261,11 @@
         padding: 15px 15px;
     }
 
+    #headerLogo {
+        width: 80px;
+        height: 40px;
+    }
+
     /* MAIN */
     #mainSliderTxt {
         text-align: center;

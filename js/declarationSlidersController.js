@@ -2,7 +2,7 @@ const prevDeclaration = $('.prevDeclaration')
 const nextDeclaration = $('.nextDeclaration')
 const firstDeclaration = $('#firstDeclaration')
 const articleSlider = $('#articleSlider')
-
+const articleSlide = $(".articleSlide")
 const ascIndex = $('#ascIndex')
 const ascMax = $('#ascMax')
 
@@ -22,9 +22,19 @@ nextDeclaration.on('click', () => {
 })
 
 // TOUCH
-$(articleSlider).on("swipeleft", swipeDeclaration(-1) );
 
-$(articleSlider).on("swiperight", swipeDeclaration(1) );
+// $(articleSlide).on("swipeleft", () => {
+//     console.log("le");
+//     swipeDeclaration(-1)
+// })
+
+
+
+// $(articleSlide).on("swiperight", () => {
+//     console.log("ri");
+//     swipeDeclaration(1)
+// })
+
 
 
 function swipeDeclaration(i) {
