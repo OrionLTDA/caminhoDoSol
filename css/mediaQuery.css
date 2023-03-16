@@ -262,7 +262,7 @@
     }
 
     #headerLogo {
-        width: 80px;
+        width: 90px;
         height: 40px;
     }
 
@@ -337,6 +337,11 @@
 
     .contatoIcon>div {
         --contatoIconDim: 20px;
+    }
+
+    #footerLogo {
+        width: 90px;
+        height: 40px;
     }
 }
 
