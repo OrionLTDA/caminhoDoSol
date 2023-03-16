@@ -23,14 +23,14 @@ nextDeclaration.on('click', () => {
 
 // TOUCH
 
-// $(articleSlide).on("swipeleft", () => {
+// $("#test").on("swipe", () => {
 //     console.log("le");
 //     swipeDeclaration(-1)
 // })
 
 
 
-// $(articleSlide).on("swiperight", () => {
+// $(articleSlide).swiperight( () => {
 //     console.log("ri");
 //     swipeDeclaration(1)
 // })
